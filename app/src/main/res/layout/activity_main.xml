@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:layout_margin="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <EditText
+        android:inputType="numberDecimal"
+       android:textColorHint="#000000"
+       android:textSize="15sp"
+       android:textAlignment="center"
+       android:padding="5dp"
+       android:background="#DAE0E2"
+       android:layout_marginTop="20dp"
+       android:layout_weight="0.5"
+       android:hint="Enter the Currency in INR"
+       android:id="@+id/inputText"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+
+       />
+
+    <TextView
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:background="#DAE0E2"
+        android:layout_weight="0.5"
+        android:text="Result"
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <View
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:background="#DAE0E2"
+        android:layout_height="2dp"/>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:weightSum="3"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:layout_margin="10dp"
+            android:background="#DAE0E2"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:id="@+id/dollar"
+            android:text="$"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <Button
+            android:layout_margin="10dp"
+            android:background="#DAE0E2"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:id="@+id/euro"
+            android:text="€"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <Button
+            android:layout_margin="10dp"
+            android:background="#DAE0E2"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:id="@+id/pounds"
+            android:text="£"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="3"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:layout_margin="10dp"
+            android:background="#DAE0E2"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:id="@+id/aus"
+            android:text="A$"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <Button
+            android:layout_margin="10dp"
+            android:background="#DAE0E2"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:id="@+id/canada"
+            android:text="CA$"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <Button
+            android:layout_margin="10dp"
+            android:background="#DAE0E2"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:id="@+id/yen"
+            android:text="¥"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="3"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+
+            android:layout_margin="10dp"
+            android:background="#DAE0E2"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:id="@+id/dinar"
+            android:text="د.ك"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <Button
+
+            android:layout_margin="10dp"
+            android:background="#DAE0E2"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:id="@+id/peso"
+            android:text="₱"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <Button
+
+            android:layout_margin="10dp"
+            android:background="#DAE0E2"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:id="@+id/ruble"
+            android:text="₽"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+   <Button
+       android:id="@+id/clear"
+       android:textSize="30sp"
+       android:layout_margin="10dp"
+       android:layout_weight="1"
+       android:padding="10dp"
+       android:text="Clear"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
